@@ -6,5 +6,5 @@
         xmlns:local="clr-namespace:Uplatnica"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Button Content="Button" HorizontalAlignment="Left" Margin="531,161,0,0" VerticalAlignment="Top" Width="75"/>
+    <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="448,49,0,0" VerticalAlignment="Top" Height="118"/>
 </Window>
