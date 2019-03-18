@@ -5,6 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Uplatnica"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="448,49,0,0" VerticalAlignment="Top" Height="118"/>
-</Window>
+        Title="Uplatnica" Height="450" Width="800">
+    <Grid Margin="0,0,2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="157*"/>
+            <ColumnDefinition Width="239*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="uplatilac" HorizontalAlignment="Left" Margin="42,39,0,0" VerticalAlignment="Top" Height="39" Width="81"/>
+        <Label Content="svrha uplate" HorizontalAlignment="Left" Margin="42,140,0,0" VerticalAlignment="Top" Width="81" Height="26" RenderTransformOrigin="0.42,1.769"/>
+        <Label Content="primalac" HorizontalAlignment="Left" Margin="42,229,0,0" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.506,-1.462" Height="26"/>
+        <Label Content="pečat i potpis uplatioca" HorizontalAlignment="Left" Margin="42,360,0,0" VerticalAlignment="Top" Width="231"/>
+        <Label Content="šifra &#xD;&#xA;plaćanja" Grid.Column="1" HorizontalAlignment="Left" Margin="33,25,0,0" VerticalAlignment="Top" Width="67" Height="48"/>
+        <Label Content="valuta" Grid.Column="1" HorizontalAlignment="Left" Margin="131,39,0,0" VerticalAlignment="Top" Width="67" Height="48"/>
+        <Label Content="iznos" Grid.Column="1" HorizontalAlignment="Left" Margin="221,39,0,0" VerticalAlignment="Top" Width="67" Height="48"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="33,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="131,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="221,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <Label Content="račun primaoca" Grid.Column="1" HorizontalAlignment="Left" Margin="33,140,0,0" VerticalAlignment="Top" Width="191"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="33,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="417"/>
+        <Label Content="model i poziv na broj (odobrenje)" Grid.Column="1" HorizontalAlignment="Left" Margin="33,229,0,0" VerticalAlignment="Top" Width="191"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="33,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="67"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="37" Margin="145,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="305"/>
+        <Label Content="mesto i datum prijema" Grid.Column="1" HorizontalAlignment="Left" Margin="10,360,0,0" VerticalAlignment="Top" Width="191"/>
+        <Label Content="datum valute" Grid.Column="1" HorizontalAlignment="Left" Margin="259,360,0,0" VerticalAlignment="Top" Width="191"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="42,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="42,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <TextBox HorizontalAlignment="Left" Height="37" Margin="42,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="3" Margin="42,357,0,0" Stroke="Black" VerticalAlignment="Top" Width="219"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="3" Margin="5,357,0,0" Stroke="Black" VerticalAlignment="Top" Width="219" Grid.Column="1"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="3" Margin="248,357,0,0" Stroke="Black" VerticalAlignment="Top" Width="219" Grid.Column="1"/>
+
+    </Grid>
+</Window> 
